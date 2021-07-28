@@ -8,7 +8,7 @@
   "module": "./dist/tailwind-preset-wbw.module.js",
   "types": "./dist/tailwind-preset-wbw.d.ts",
   "repository": "https://github.com/kawalcovid19/tailwind-preset-wbw.git",
-  "author": "Kawal COVID-19 <info@kawalcovid19.id>",
+  "author": "Kawal COVID-19 <admin@kawalcovid19.id>",
   "license": "MIT",
   "files": [
     "dist"
