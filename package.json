@@ -1,0 +1,40 @@
+{
+  "name": "@kawalcovid19/tailwind-preset-wbw",
+  "version": "0.0.0",
+  "description": "Tailwind preset used for projects across the Kawal COVID-19 + WargaBantuWarga projects.",
+  "source": "./src/tailwind-preset-wbw.js",
+  "exports": "./dist/tailwind-preset-wbw.modern.js",
+  "main": "./dist/tailwind-preset-wbw.js",
+  "module": "./dist/tailwind-preset-wbw.module.js",
+  "types": "./dist/tailwind-preset-wbw.d.ts",
+  "repository": "https://github.com/kawalcovid19/tailwind-preset-wbw.git",
+  "author": "Kawal COVID-19 <info@kawalcovid19.id>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/typography": "^0.4.1",
+    "eslint": "^7.31.0",
+    "eslint-config-kentcdodds": "^19.1.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "microbundle": "^0.13.3",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/typography": "^0.4.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
