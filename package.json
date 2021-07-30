@@ -16,7 +16,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "prepare": "yarn clean && yarn build"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.3.3",
