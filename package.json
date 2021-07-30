@@ -17,6 +17,8 @@
     "clean": "rimraf dist",
     "build": "microbundle",
     "dev": "microbundle watch",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "yarn clean && yarn build"
   },
   "devDependencies": {

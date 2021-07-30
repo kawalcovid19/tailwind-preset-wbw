@@ -1,6 +1,10 @@
 {
   "extends": ["plugin:prettier/recommended", "prettier", "kentcdodds"],
   "plugins": ["prettier", "simple-import-sort"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "rules": {
     "@babel/new-cap": "off",
     "@typescript-eslint/no-explicit-any": "warn",
@@ -32,15 +36,5 @@
     ],
     "sort-imports": "off",
     "@babel/no-unused-expressions": 0
-  },
-  "overrides": [
-    {
-      "files": ["**/*.(d.)?ts(x)?"],
-      "parser": "@typescript-eslint/parser",
-      "parserOptions": {
-        "project": "./tsconfig.json"
-      },
-      "rules": {}
-    }
-  ]
+  }
 }
