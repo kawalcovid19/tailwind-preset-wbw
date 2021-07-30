@@ -1,4 +1,4 @@
-# `@kawalcovid19/tailwind-preset-wbw`
+# tailwind-preset-wbw
 
 Tailwind preset used across the Kawal COVID-19 + WargaBantuWarga projects.
 
