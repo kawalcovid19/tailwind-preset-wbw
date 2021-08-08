@@ -1,6 +1,6 @@
 {
   "name": "@kawalcovid19/tailwind-preset-wbw",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Tailwind preset used across the Kawal COVID-19 + WargaBantuWarga projects.",
   "source": "./src/tailwind-preset-wbw.js",
   "exports": "./dist/tailwind-preset-wbw.modern.js",
